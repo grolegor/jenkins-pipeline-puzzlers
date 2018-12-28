@@ -1,5 +1,5 @@
 @Library('sharedlib@collections')
 import com.grol.jenkins.CustomClass
 
-println(new CustomClass("test").toString())
+println(new CustomClass("test"))
 
