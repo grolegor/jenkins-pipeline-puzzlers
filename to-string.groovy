@@ -5,7 +5,7 @@ println("1")
 println(new CustomClass())
 
 println("2")
-println("without toString: " + new CustomClass())
+println("prefix: " + new CustomClass())
 
 println("3")
-println("with toString: " + new CustomClass().toString())
+println("prefix: " + new CustomClass().toString())
