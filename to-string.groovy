@@ -1,4 +1,4 @@
-@Library("sharedlib@to-string")
+@Library("sharedlib")
 import com.jenkins.ClassWithToStringOverridden
 
 println("1")
