@@ -1,4 +1,4 @@
-@Library("shared-library")
+@Library("sharedlib@to-string")
 import com.jenkins.CustomClass
 
 println("without toString: " + new CustomClass())
