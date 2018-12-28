@@ -1,11 +1,11 @@
 @Library("sharedlib@to-string")
-import com.jenkins.CustomClass
+import com.jenkins.ToStringClass
 
 println("1")
-println(new CustomClass())
+println(new ToStringClass())
 
 println("2")
-println("prefix: " + new CustomClass())
+println("prefix: " + new ToStringClass())
 
 println("3")
-println("prefix: " + new CustomClass().toString())
+println("prefix: " + new ToStringClass().toString())

@@ -1,8 +1,8 @@
 package com.jenkins
 
-class CustomClass {
+class ToStringClass {
 
-    CustomClass(){
+    ToStringClass(){
     }
 
     @Override
