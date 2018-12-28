@@ -1,8 +1,8 @@
 package com.jenkins
 
-class ToStringClass {
+class ClassWithToStringOverridden {
 
-    ToStringClass(){
+    ClassWithToStringOverridden(){
     }
 
     @Override

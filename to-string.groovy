@@ -1,11 +1,11 @@
 @Library("sharedlib@to-string")
-import com.jenkins.ToStringClass
+import com.jenkins.ClassWithToStringOverridden
 
 println("1")
-println(new ToStringClass())
+println(new ClassWithToStringOverridden())
 
 println("2")
-println("prefix: " + new ToStringClass())
+println("prefix: " + new ClassWithToStringOverridden())
 
 println("3")
-println("prefix: " + new ToStringClass().toString())
+println("prefix: " + new ClassWithToStringOverridden().toString())
